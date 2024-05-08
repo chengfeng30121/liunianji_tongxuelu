@@ -1,1 +1,1 @@
-# liunianji_tongxuelu
+# 这是使用 [`vercel`](https://vercel.com) + `php` 部署的同学录系统

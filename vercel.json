@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "functions": {
+      "api/**/*.php": {
+        "runtime": "vercel-php@0.6.0"
+      }
+    },
+    "routes": [
+      { "src": "/admin/*", "dest": "/admin/*" },
+      { "src": "/assets/*", "dest": "/assets/*" },
+      { "src": "/favicon.ico", "dest": "/favicon.ico" },
+      { "src": "/css/*", "dest": "/css/*" },
+      { "src": "/home/*", "dest": "/home/*" },
+      { "src": "/img/*", "dest": "/img/*" },
+      { "src": "/indexs/*", "dest": "/indexs/*" },
+      { "src": "/install/*", "dest": "/install/*" },
+      { "src": "/js/*", "dest": "/js/*" },
+      { "src": "/libs/*", "dest": "/libs/*" },
+      { "src": "/music/*", "dest": "/music/*" },
+      { "src": "/n/*", "dest": "/n/*" },
+      { "src": "/photos/*", "dest": "/photos/*" },
+      { "src": "/style/*", "dest": "/style/*" },
+      { "src": "/syys/*", "dest": "/syys/*" },
+      { "src": "/*",  "dest": "/api/*" }
+    ]
+   
+  }
